@@ -14,7 +14,7 @@ const SOPHome = () => (
   <div>
     <div>
       <h2>Dashboard <div className="FormField Middle" style={buttonStyle}>
-          <Link to={ROUTES.DOC} className="FormField__Button mr-20">
+          <Link to={ROUTES.SOPForm} className="FormField__Button mr-20">
             Upload Document
           </Link>
         </div></h2> 

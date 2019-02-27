@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navigation from "../Navigation";
 import HomePage from "../Home";
 import SOPPage from "../SOP";
+import SOPForm from "../SOP/createSOP"
 import LoginPage from "../Login";
 import DOCView from "../DocumentViewer/Doc";
 
@@ -16,6 +17,7 @@ const App = () => (
       <Route path={ROUTES.HOME} component={HomePage} />
       <Route path={ROUTES.SOP_HOME} component={SOPPage} />
       <Route path={ROUTES.DOC} component={DOCView} />
+      <Route path={ROUTES.SOPForm} component={SOPForm} />
     </div>
   </Router>
 );
